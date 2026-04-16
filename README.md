@@ -69,31 +69,32 @@ Examples of file organization rules:
 ## Setup
 
 1. Clone the repository
-
+```
 git clone https://github.com/bharathivrao/file-organizer
 cd file-organizer
-
+```
 
 2. Create and activate a virtual environment
 
 On macOS/Linux:
+```
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 3. Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 ## Usage
 
 Organize a directory once:
-
+```
 python run.py --path "./sample_files"
-
+```
 Watch a directory in real time:
-
+```
 python run.py --path "./sample_files" --watch
-
+```
 ## Example
 
 Suppose your folder contains:
@@ -126,21 +127,21 @@ sample_files/
 If a file with the same name already exists in the destination folder, the program renames the new file instead of overwriting it.
 
 Example:
-
+```
 resume.pdf
 resume_1.pdf
 resume_2.pdf
-
+```
 ## Running Tests
 
 Run all tests:
-
+```
 pytest
-
+```
 If you get import issues locally, run:
-
+```
 PYTHONPATH=. pytest
-
+```
 ## Test Coverage
 
 The project includes tests for:
