@@ -97,15 +97,18 @@ python run.py --path "./sample_files" --watch
 ## Example
 
 Suppose your folder contains:
+
+```
 sample_files/
 ├── resume.pdf
 ├── photo.jpg
 ├── notes.txt
 ├── movie.mp4
 └── archive.zip
-
+```
 After running the organizer, it becomes:
 
+```
 sample_files/
 ├── Docs/
 │   ├── resume.pdf
@@ -116,7 +119,7 @@ sample_files/
 │   └── movie.mp4
 └── Archives/
     └── archive.zip
-	
+```
 	
 ## Duplicate File Handling
 
