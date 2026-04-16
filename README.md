@@ -41,14 +41,14 @@ file-organizer/
 ├── requirements.txt
 └── run.py
 
-Tech Stack
+## Tech Stack
 	•	Python
 	•	os
 	•	shutil
 	•	watchdog
 	•	pytest
 
-How It Works
+## How It Works
 
 The application:
 	1.	scans a directory for files
@@ -67,7 +67,7 @@ Examples of file organization rules:
 	•	Archives: .zip, .rar, .tar, .gz
 	•	Others: any unrecognized extension
 
-##Setup
+## Setup
 
 1. Clone the repository
 
@@ -85,7 +85,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-##Usage
+## Usage
 
 Organize a directory once:
 
@@ -95,7 +95,7 @@ Watch a directory in real time:
 
 python run.py --path "./sample_files" --watch
 
-##Example
+## Example
 
 Suppose your folder contains:
 sample_files/
@@ -119,7 +119,7 @@ sample_files/
     └── archive.zip
 	
 	
-##Duplicate File Handling
+## Duplicate File Handling
 
 If a file with the same name already exists in the destination folder, the program renames the new file instead of overwriting it.
 
@@ -129,7 +129,7 @@ resume.pdf
 resume_1.pdf
 resume_2.pdf
 
-##Running Tests
+## Running Tests
 
 Run all tests:
 
@@ -139,7 +139,7 @@ If you get import issues locally, run:
 
 PYTHONPATH=. pytest
 
-##Test Coverage
+## Test Coverage
 
 The project includes tests for:
 	•	file type categorization
@@ -147,7 +147,7 @@ The project includes tests for:
 	•	organizing directories
 	•	watcher helper behavior
 
-##Future Improvements
+## Future Improvements
 	•	Add custom user-defined rules
 	•	Add recursive subfolder organization
 	•	Add logging to a file
@@ -155,7 +155,7 @@ The project includes tests for:
 	•	Package as a background service
 	•	Add config file support using JSON or YAML
 
-##What I Learned
+## What I Learned
 
 This project helped me practice:
 	•	file and directory handling in Python
