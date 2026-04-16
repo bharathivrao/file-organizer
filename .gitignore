@@ -1,0 +1,52 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database files
+data/*.db
+tests/data/*.db
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual environment folders
+.env
+.envrc
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+cover/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Type-checker caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Misc
+.ipynb_checkpoints
+*.log
+sample_files/
