@@ -18,8 +18,7 @@ A beginner-friendly Python automation project that organizes files in a director
 - Ignores hidden files like `.DS_Store`
 
 ## Project Structure
-
-```text
+```
 file-organizer/
 ├── app/
 │   ├── __init__.py
@@ -40,15 +39,15 @@ file-organizer/
 ├── README.md
 ├── requirements.txt
 └── run.py
-
-Tech Stack
+```
+## Tech Stack
 	•	Python
 	•	os
 	•	shutil
 	•	watchdog
 	•	pytest
 
-How It Works
+## How It Works
 
 The application:
 	1.	scans a directory for files
@@ -57,7 +56,7 @@ The application:
 	4.	moves the file into that folder
 	5.	optionally watches the folder continuously for changes
 
-Supported Categories
+## Supported Categories
 
 Examples of file organization rules:
 	•	Docs: .pdf, .doc, .docx, .txt, .csv, .xlsx, .ppt, .pptx
@@ -67,7 +66,7 @@ Examples of file organization rules:
 	•	Archives: .zip, .rar, .tar, .gz
 	•	Others: any unrecognized extension
 
-Setup
+## Setup
 
 1. Clone the repository
 
@@ -85,7 +84,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-Usage
+## Usage
 
 Organize a directory once:
 
@@ -95,7 +94,7 @@ Watch a directory in real time:
 
 python run.py --path "./sample_files" --watch
 
-Example
+## Example
 
 Suppose your folder contains:
 sample_files/
@@ -119,7 +118,7 @@ sample_files/
     └── archive.zip
 	
 	
-Duplicate File Handling
+## Duplicate File Handling
 
 If a file with the same name already exists in the destination folder, the program renames the new file instead of overwriting it.
 
@@ -129,7 +128,7 @@ resume.pdf
 resume_1.pdf
 resume_2.pdf
 
-Running Tests
+## Running Tests
 
 Run all tests:
 
@@ -139,7 +138,7 @@ If you get import issues locally, run:
 
 PYTHONPATH=. pytest
 
-Test Coverage
+## Test Coverage
 
 The project includes tests for:
 	•	file type categorization
@@ -164,8 +163,8 @@ This project helped me practice:
 	•	safe handling of duplicate filenames
 	•	writing tests with pytest
 
-##License
+## License
 
-This project is for learning and portfolio purposes.
+This project is for learning and portfolio purposes only.
 
 
